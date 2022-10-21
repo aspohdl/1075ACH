@@ -1,10 +1,5 @@
-# ps = [2, 3, 5, 29, 869]
 x = int(input())
 s = ''
-# if x in ps:
-# #     print(x)
-# elif x > 869:
-#     print(0)20
 while x != 1:
     k = 0
     if x % 2 == 0:
