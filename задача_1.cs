@@ -5,19 +5,19 @@ if (number >= 10)
     {
         if (number % 2 == 0)
         {
-            Console.WriteLine($"Число {number} чётное и двузначное");
+            Console.WriteLine("True");
         }
         else if (number % 2 == 1)
         {
-            Console.WriteLine($"Число {number} НЕ является чётным");
+            Console.WriteLine("False");
         }
     }
     else if (number > 99)
     {
-        Console.WriteLine($"Число {number} НЕ является двузначным");
+        Console.WriteLine("False");
     }
 }
 else if (number < 10)
 {
-    Console.WriteLine($"Число {number} НЕ является двузначным");
+    Console.WriteLine("False");
 }
